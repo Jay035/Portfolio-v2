@@ -7,12 +7,12 @@ import fanstribeImg from "../assets/fanstribe.png";
 import magnoImg from "../assets/magno.png";
 import altschoolProductsImg from "../assets/altschool-products-page.png";
 import bervCareImg from "../assets/berv-care.png";
-// import memeGeneratorImg from "../assets/meme-generator.png";
-// import adviceGeneratorImg from "../assets/advice-generator.jpg";
 import calculatorImg from "../assets/altschool-calculator-web-app.png";
 import ecommerceImg from "../assets/ecommerce.jpg";
-// import interactiveRatingImg from "../assets/interactive-rating.jpg";
 import todoApp from "../assets/todo-app.jpg";
+// import memeGeneratorImg from "../assets/meme-generator.png";
+// import adviceGeneratorImg from "../assets/advice-generator.jpg";
+// import interactiveRatingImg from "../assets/interactive-rating.jpg";
 
 export const AllWorks = [
   // berv-care
@@ -100,6 +100,36 @@ export const AllWorks = [
     demoURL: "https://space-tourism-reactjs-website.netlify.app/",
     imagePosition: "object-center",
   },
+  // todo app
+  {
+    image: todoApp,
+    stack: "React Js, TailwindCSS",
+    title: "Todo app",
+    subTitle: "Frontendmentor challenge",
+    githubURL: "https://github.com/Jay035/todo-app",
+    demoURL: "https://jay035.github.io/todo-app/",
+    imagePosition: "object-center",
+  },
+  // ecommerce
+  {
+    image: ecommerceImg,
+    stack: "JavaScript, CSS, HTML",
+    title: "ECommerce product page",
+    subTitle: "Frontendmentor challenge",
+    githubURL: "https://github.com/Jay035/ecommerce-product-page",
+    demoURL: "https://ecommerce-product-page-one-black.vercel.app/",
+    imagePosition: "object-[40%]",
+  },
+  // calculator
+  {
+    image: calculatorImg,
+    title: "Calculator app",
+    subTitle:
+      "Front-end engineering Second semester assignment at AltSchool Africa",
+    githubURL: "https://github.com/Jay035/AltSchool-calculator-web-app",
+    demoURL: "https://altschool-calculator-web-app.vercel.app/",
+    imagePosition: "object-center",
+  },
   // travel journal
   {
     image: travelJournalImg,
@@ -110,155 +140,6 @@ export const AllWorks = [
     demoURL: "https://jay035.github.io/travel-journal/",
     imagePosition: "object-center",
   },
-  {
-    image: todoApp,
-    stack: "React Js, TailwindCSS",
-    title: "Todo app",
-    subTitle: "Frontendmentor challenge",
-    githubURL: "https://github.com/Jay035/todo-app",
-    demoURL: "https://jay035.github.io/todo-app/",
-    imagePosition: "object-center",
-  },
-  {
-    image: ecommerceImg,
-    stack: "JavaScript, CSS, HTML",
-    title: "ECommerce product page",
-    subTitle: "Frontendmentor challenge",
-    githubURL: "https://github.com/Jay035/ecommerce-product-page",
-    demoURL: "https://ecommerce-product-page-one-black.vercel.app/",
-    imagePosition: "object-[40%]",
-  },
-  {
-    image: calculatorImg,
-    title: "Calculator app",
-    subTitle: "Front-end engineering Second semester assignment at AltSchool Africa",
-    githubURL: "https://github.com/Jay035/AltSchool-calculator-web-app",
-    demoURL: "https://altschool-calculator-web-app.vercel.app/",
-    imagePosition: "object-center",
-  },
-  // meme generator
-  // {
-  //   image: memeGeneratorImg,
-  //   stack: "React JS, CSS",
-  //   title: "Meme Generator",
-  //   subTitle: "Scrimba React JS course challenge",
-  //   githubURL: "https://github.com/Jay035/meme-generator",
-  //   demoURL: "https://jay035.github.io/meme-generator/",
-  //   imagePosition: "object-center",
-  // },
-
-  // {
-  //   image: interactiveRatingImg,
-  //   stack: "React JS, CSS",
-  //   title: "Interactive Rating Component",
-  //   subTitle: "Frontendmentor challenge",
-  //   githubURL: "https://github.com/Jay035/Interactive-rating-component",
-  //   demoURL: "https://jay035.github.io/Interactive-rating-component/",
-  //   imagePosition: "object-center",
-  // },
-  // {
-  //   image: adviceGeneratorImg,
-  //   title: "Advice Generator",
-  //   subTitle: "Frontendmentor challenge",
-  //   githubURL: "https://github.com/Jay035/Advice-generator",
-  //   demoURL: "https://jay035.github.io/Advice-generator/",
-  //   imagePosition: "object-center",
-  // },
-  // {
-  //   id: 11,
-  //   image: socialMediaDashboard,
-  //   title: "Social Media Dashboard",
-  //   subTitle: "Frontendmentor challenge",
-  //   githubURL:
-  //     "https://github.com/Jay035/Frontend-mentor/tree/main/social-media-dashboard-with-theme-switcher-master",
-  //   demoURL:
-  //     "https://jay035.github.io/social-media-dashboard-with-theme-switcher-master/",
-  //   imagePosition: "object-center",
-  // },
-  // {
-  //   id: 12,
-  //   image: launchCountdownImg,
-  //   title: "Launch countdown timer",
-  //   subTitle: "Frontendmentor Challenge",
-  //   githubURL:
-  //     "https://github.com/Jay035/Frontend-mentor/tree/main/launch-countdown-timer-main",
-  //   demoURL: "https://jay035.github.io/launch-countdown-timer-main/",
-  //   imagePosition: "object-center",
-  // },
-  // {
-  //   id: 13,
-  //   image: introSectionImg,
-  //   title: "Intro Section",
-  //   subTitle: "Frontendmentor Challenge",
-  //   githubURL:
-  //     "https://github.com/Jay035/intro-section-with-dropdown-navigation",
-  //   demoURL: "https://jay035.github.io/intro-section-with-dropdown-navigation/",
-  //   imagePosition: "object-left",
-  // },
-  // {
-  //     id: 14,
-  //     image: HNGResumeImg,
-  //     title: "Resume",
-  //     subTitle: 'Task by HNG internship',
-  //     githubURL: "https://github.com/Jay035/Resume",
-  //     demoURL: "https://jay035.github.io/HNG%20Resume/",
-  //     imagePosition: "object-[20%]",
-  // },
-  // {
-  //   id: 14,
-  //   image: fyloLandingPage,
-  //   title: "Fylo landing page",
-  //   subTitle: "Frontendmentor Challenge",
-  //   githubURL:
-  //     "https://github.com/Jay035/Frontend-mentor/tree/main/fylo-dark-theme-landing-page-master",
-  //   demoURL: "https://jay035.github.io/fylo-dark-theme-landing-page-master/",
-  //   imagePosition: "object-center",
-  // },
-  // {
-  //     id: 16,
-  //     image: counterImg,
-  //     title: "Counter",
-  //     subTitle: 'Task by SideHustle internship',
-  //     githubURL: "https://github.com/Jay035/Javascript-projects/tree/main/Counter",
-  //     demoURL: "https://jay035.github.io/Javascript%20counter/",
-  //     imagePosition: "object-center",
-  // },
-  // {
-  //     id: 17,
-  //     image: dashboardImg,
-  //     title: "ECare Doctor's dashboard",
-  //     subTitle: 'Task by ZURI Internship',
-  //     githubURL: "https://github.com/Jay035/ECare/tree/main",
-  //     demoURL: "https://jay035.github.io/ECare/",
-  //     imagePosition: "object-left",
-  // },
-  // {
-  //     id: 18,
-  //     image: socialProofImg,
-  //     title: "Social proof section",
-  //     subTitle: 'Frontendmentor challenge',
-  //     githubURL: "https://github.com/Jay035/social-proof-section",
-  //     demoURL: "https://jay035.github.io/social-proof-section/",
-  //     imagePosition: "object-[35%]",
-  // },
-  // {
-  //     id: 19,
-  //     image: chatImg,
-  //     title: "Chat app Illustration",
-  //     subTitle: 'Frontendmentor challenge',
-  //     githubURL: "https://github.com/Jay035/chat-app-css-illustration",
-  //     demoURL: "https://jay035.github.io/chat-app-css-illustration/",
-  //     imagePosition: "object-center",
-  // },
-  // {
-  //     id: 20,
-  //     image: columnCardImg,
-  //     title: "3 Column card",
-  //     subTitle: 'Frontendmentor challenge',
-  //     githubURL: "https://github.com/Jay035/Frontend-mentor/tree/main/3-column-preview-card-component-main",
-  //     demoURL: "https://jay035.github.io/3-column-preview-card/",
-  //     imagePosition: "object-center",
-  // },
 ];
 
 // export const NextJSWorks = [
