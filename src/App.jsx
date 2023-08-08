@@ -65,15 +65,15 @@ function App() {
               <ul className="menu flex flex-col justify-center lg:justify-end lg:flex-row font-medium items-center text-xl text-center min-h-screen lg:min-h-fit gap-6">
                 <li
                   id="home"
+                  onClick={() => setLoading(false)}
                   className="relative text-light-grey text-xl hover:text-white"
                   // onClick={displayPage}
                 >
-                  <NavLink to="/" onClick={() => setLoading(false)}>
-                    Home{" "}
-                  </NavLink>
+                  <NavLink to="/">Home </NavLink>
                 </li>
                 <li
                   id="portfolio"
+                  onClick={() => setLoading(false)}
                   className="relative text-light-grey text-xl hover:text-white"
                   // onClick={displayPage}
                 >
@@ -81,8 +81,8 @@ function App() {
                 </li>
                 <li
                   id="contact"
+                  onClick={() => setLoading(false)}
                   className="relative text-light-grey text-xl hover:text-white"
-                  // onClick={displayPage}
                 >
                   <NavLink to="/contact">Contact</NavLink>
                 </li>

@@ -83,7 +83,7 @@ export default function Project() {
       <div
         data-aos="fade-in"
         data-aos-duration="3000"
-        className="container px-8 max-w-[900px] xl:max-w-[1200px] mx-auto backdrop-blur-sm"
+        className="container px-8 md:px-[9.5vw] w-full mx-auto backdrop-blur-sm"
       >
         <h1 className="text-center text-3xl sm:text-4xl font-semibold pt-8 pb-10">
           {portfolioHeading}
@@ -108,9 +108,9 @@ export default function Project() {
         </ul> */}
 
         <section
-          data-aos="fade-up"
-          data-aos-duration="3000"
-          className="grid place-content-center sm:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-6 items-center mt-10"
+          // data-aos="fade-up"
+          // data-aos-duration="3000"
+          className="w-full grid grid-cols-1 place-content-center sm:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-6 items-center mt-10"
         >
           {data.map((item, index) => {
             return <Card key={index} id={item.id} item={item} />;

@@ -6,16 +6,12 @@ export const Card = ({ item }: any) => {
       data-aos="fade-up"
       data-aos-duration="3000"
       data-aos-delay="200"
-      className="my-4 w-full max-w-[500px]"
+      className="my-4"
     >
-      <a
-        href={item.demoURL}
-        target="_blank"
-        className="relative mx-auto w-full"
-      >
+      <a href={item.demoURL} target="_blank" className="relative">
         {/* <!-- project screenshot --> */}
         <img
-          className={`w-full object-cover ${item.imagePosition} mx-auto h-[15rem]`}
+          className={`object-cover ${item.imagePosition} mx-auto h-[15rem]`}
           src={item.image}
           alt="work screenshot"
         />
@@ -26,9 +22,9 @@ export const Card = ({ item }: any) => {
           </h1>
         </div>
       </a>
-      <div className="mt-3">
-        <p className="text-xl font-semibold ">{item.title} </p>
-        <p className="text-base mt-2 truncate">{item.subTitle}</p>
+      <div className="mt-3 w-full">
+        <p className="text-xl font-semibold">{item.title} </p>
+        <p className="text-base mt-2 sm:line-clamp-2">{item.subTitle}</p>
         <ul className="flex items-start mt-2 gap-3">
           <span className="font-semibold">Technology: </span>
           <li className="text-base line-clamp-2">{item?.stack}</li>
