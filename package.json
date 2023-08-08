@@ -10,9 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/line-clamp": "^0.4.4",
+    "@emailjs/browser": "^3.11.0",
     "aos": "^2.3.4",
-    "emailjs": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
