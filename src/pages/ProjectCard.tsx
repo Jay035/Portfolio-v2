@@ -27,7 +27,7 @@ export const Card = ({ item }: any) => {
         <p className="text-base mt-2 sm:line-clamp-2">{item.subTitle}</p>
         <ul className="flex items-start mt-2 gap-3">
           <span className="font-semibold">Technology: </span>
-          <li className="text-base line-clamp-2">{item?.stack}</li>
+          <li className="text-base sm:line-clamp-2">{item?.stack}</li>
         </ul>
 
         <div className="flex gap-6 mt-4">
