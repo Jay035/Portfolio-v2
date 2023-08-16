@@ -268,16 +268,7 @@ export default function Home() {
                       BOOTSTRAP
                     </span>
                   </li>
-                  {/* GITHUB  */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="700"
-                    className="font-medium cursor-default"
-                  >
-                    {/* <i className="ri-github-fill hidden text-3xl mb-2"></i> */}
-                    <span className="bg-light-grey/30 py-2 px-4">GITHUB</span>
-                  </li>
+                  
                   {/* FIGMA  */}
                   <li
                     data-aos="fade-up"
