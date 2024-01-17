@@ -6,12 +6,12 @@ export const Card = ({ item }: any) => {
       data-aos="fade-up"
       data-aos-duration="3000"
       data-aos-delay="200"
-      className="my-4"
+      className="my-4 md:my-0"
     >
       <a href={item.demoURL} target="_blank" className="relative">
         {/* <!-- project screenshot --> */}
         <img
-          className={`object-cover ${item.imagePosition} mx-auto h-[15rem]`}
+          className={`object-cover ${item.imagePosition} mx-auto h-[15rem] max-h-[15rem]`}
           src={item.image}
           alt="work screenshot"
         />

@@ -131,15 +131,15 @@ export const AllWorks = [
     imagePosition: "object-center",
   },
   // travel journal
-  {
-    image: travelJournalImg,
-    stack: "React JS, JavaScript, CSS, React simple maps, React tooltip",
-    title: "Travel Journal",
-    subTitle: "Scrimba React JS course challenge",
-    githubURL: "https://github.com/Jay035/travel-journal",
-    demoURL: "https://jay035.github.io/travel-journal/",
-    imagePosition: "object-center",
-  },
+  // {
+  //   image: travelJournalImg,
+  //   stack: "React JS, JavaScript, CSS, React simple maps, React tooltip",
+  //   title: "Travel Journal",
+  //   subTitle: "Scrimba React JS course challenge",
+  //   githubURL: "https://github.com/Jay035/travel-journal",
+  //   demoURL: "https://jay035.github.io/travel-journal/",
+  //   imagePosition: "object-center",
+  // },
 ];
 
 // export const NextJSWorks = [

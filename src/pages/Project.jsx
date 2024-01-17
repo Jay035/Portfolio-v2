@@ -78,7 +78,7 @@ export default function Project() {
       id="portfolio"
       data-aos="fade-in"
       data-aos-duration="3000"
-      className="relative bg-blackk text-light-grey bg-portfolio-Bg h-full bg-top overflow-hidden mt-[5.3rem]"
+      className="relative bg-blackk text-light-grey bg-portfolio-Bg h-full min-h-[80%] bg-top overflow-hidden mt-[5.3rem]"
     >
       <div
         data-aos="fade-in"
@@ -107,15 +107,23 @@ export default function Project() {
           ))}
         </ul> */}
 
-        <section
-          // data-aos="fade-up"
-          // data-aos-duration="3000"
-          className="w-full grid grid-cols-1 place-content-center sm:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-6 items-center mt-10"
-        >
-          {data.map((item, index) => {
+        {data?.length > 0 ? (
+          <section
+            // data-aos="fade-up"
+            // data-aos-duration="3000"
+            className="w-full grid grid-cols-1 place-content-center sm:grid-cols-2 xl:grid-cols-3 gap-10 items-start mt-10 mb-20"
+          >
+            {data?.map((item, index) => {
             return <Card key={index} id={item.id} item={item} />;
           })}
-        </section>
+          </section>
+        ) : (
+          <section className="w-full grid grid-cols-1 place-content-center sm:grid-cols-2 xl:grid-cols-3 gap-20 items-center mt-10 mb-20">
+            <div className="bg-white/50 w-[350px] h-[240px] animate-pulse"></div>
+            <div className="bg-white/50 w-[350px] h-[240px] animate-pulse"></div>
+            <div className="bg-white/50 w-[350px] h-[240px] animate-pulse"></div>
+          </section>
+        )}
       </div>
     </div>
   );

@@ -34,12 +34,12 @@ function App() {
     <Router>
       <Suspense
         fallback={
-          <div id="preloader">
+          <div className="flex justify-center items-center min-h-screen">
             <img
-              className="animate-pulse"
+              className="animate-pulse w-20"
               src="./Codexjay.png"
               alt="logo"
-              id="preloader_img"
+              // id="preloader_img"
             />
           </div>
         }
@@ -80,11 +80,11 @@ function App() {
                   <NavLink to="/projects">Projects</NavLink>
                 </li>
                 <li
-                  id="contact"
-                  onClick={() => setLoading(false)}
+                  // id="contact"
+                  // onClick={() => setLoading(false)}
                   className="relative text-light-grey text-xl hover:text-white"
                 >
-                  <NavLink to="/contact">Contact</NavLink>
+                  <a href="#contact">Contact</a>
                 </li>
                 {/* social media links */}
                 <section className="lg:hidden">
@@ -131,6 +131,7 @@ function App() {
             <Route path="*" element={<ErrorPage />} />
           </Routes>
 
+{/* <div id="contact"></div> */}
           <Footer />
         </div>
       </Suspense>

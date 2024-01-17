@@ -21,7 +21,7 @@
     }
 
     /* ------------------ PRELOADER ---------------------- */
-    #preloader{
+    /* #preloader{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -55,7 +55,7 @@
 
     .preloder--hidden{
         display: none !important;
-    }
+    } */
 
     .flex{
         display: flex;

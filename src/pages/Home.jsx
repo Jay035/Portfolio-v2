@@ -35,13 +35,13 @@ export default function Home() {
         data-aos="fade-in"
         data-aos-duration="3000"
         id="hero"
-        className="bg-hero-img w-full h-screen sm:h-[90vh] md:h-screen bg-no-repeat bg-center bg-black-300 bg-blend-multiply bg-cover"
+        className="bg-hero-img w-full h-screen bg-no-repeat bg-center bg-black-300 bg-blend-multiply bg-cover"
       >
         {/* text */}
         <div
           data-aos="zoom-out"
           data-aos-duration="1000"
-          className="relative h-4/5 text-center w-11/12 max-w-[800px] mx-auto leading-loose sm:ml-10 sm:text-left top-48 sm:top-72 xl:ml-20"
+          className="relative h-4/5 text-center w-11/12 max-w-[800px] mx-auto leading-loose sm:ml-10 sm:text-left top-[40%] -translate-y-[40%]"
         >
           <h1 className="text-2xl text-white font-semibold mb-2 sm:text-4xl xl:text-5xl">
             Hello, I&apos;m <span ref={el}></span>
@@ -73,7 +73,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <a href="#about-me" className="arrow w-fit md:mt-16 mx-auto flex">
+        <a href="#about-me" className="arrow w-fit mt-36 md:mt-10 mx-auto flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="42"
@@ -90,10 +90,10 @@ export default function Home() {
       {/* ============= ABOUT ME =================== */}
 
       <section
-        data-aos="fade"
-        data-aos-duration="3000"
+        // data-aos="fade"
+        // data-aos-duration="3000"
         id="about-me"
-        className="w-[90%] mx-auto leading-7 pt-16 max-w-[1000px]"
+        className="w-[90%] mx-auto leading-7 pt-32 pb-12 max-w-[1000px]"
       >
         <h1
           data-aos="fade-up"
@@ -105,195 +105,106 @@ export default function Home() {
         <div
           data-aos="fade-up"
           data-aos-duration="3000"
-          data-aos-delay="200"
           className="about-sections grid text-base sm:text-lg"
         >
           {/* LEFT COLUMN  */}
           <div className="xl:text-xl sm:font-normal text-base">
-            <h3
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              data-aos-delay="300"
-              className="text-2xl xl:text-3xl mb-2 font-medium"
-            >
-              Hello, I&apos;m{" "}
-              <span className="text-white opacity-90">Chibuike Ukandu.</span>
-            </h3>
+
             <p
               data-aos="fade-up"
               data-aos-duration="3000"
-              data-aos-delay="400"
               className=""
             >
-              I&apos;m an enthusiastic Frontend developer, an ardent believer in
+              👋 Hi there! I'm{" "}
+              <span className="text-white opacity-90 font-semibold">
+                {" "}
+                Chibuike Ukandu.
+              </span>
+              , also known as CodexJay. I am a passionate Frontend Engineer with
+              a knack for crafting intuitive, pixel-perfect and scalable web
+              interfaces. With over 2 years of hands-on experience, I specialize
+              in harnessing the power of modern web technologies to bring ideas
+              to life. I have experience in design and possess a keen sense of
+              aesthetic.
+              {/* I&apos;m an enthusiastic Frontend developer, an ardent believer in
               continuous learning of both technical and soft skills to improve
               my ability to deliver great software solutions with the best user
               experience. Whether it&apos;s a project, job opportunity, or just
-              a chat, feel free to contact me.
+              a chat, feel free to contact me. */}
             </p>
 
             {/* SKILLS */}
             <div id="skills" className="my-8">
               <h5
                 data-aos="fade-up"
-                data-aos-duration="3000"
-                data-aos-delay="500"
+                data-aos-duration="4000"
                 className="text-2xl sm:text-3xl font-semibold mb-2"
               >
                 Skills
               </h5>
               <div className="">
-                {/* <p className='text-lg font-medium opacity-80'> // These are the technologies I've worked with</p> */}
                 <ul
-                  data-aos="fade-up"
+                  data-aos="fade-in"
                   data-aos-duration="3000"
-                  data-aos-delay="600"
                   className="mt-8 flex flex-wrap md:grid md:grid-cols-5 md:gap-x-6 gap-y-10 gap-x-5 px-4 text-center justify-start items-start"
                 >
                   {/* REACT JS */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="800"
-                    className="font-medium cursor-default"
-                  >
-                    {/* <i className="ri-reactjs-line hidden text-3xl mb-2"></i> */}
+                  <li className="font-medium cursor-default">
                     <span className="bg-light-grey/30 py-2 px-4">REACT JS</span>
                   </li>
                   {/* JAVASCRIPT */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="800"
-                    className=" font-medium"
-                  >
-                    {/* <img
-                      src={javascriptIcon}
-                      alt=""
-                      className="hidden mb-2 w-[2.25rem]"
-                    /> */}
+                  <li className=" font-medium">
                     <span className="bg-light-grey/30 py-2 px-4">
                       JAVASCRIPT
                     </span>
                   </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="800"
-                    className=" font-medium"
-                  >
-                    {/* <img
-
-                      src={javascriptIcon}
-
-                      alt=""
-
-                      className="hidden mb-2 w-[2.25rem]"
-
-                    /> */}
-
+                  <li className=" font-medium">
                     <span className="bg-light-grey/30 py-2 px-4">
                       TYPESCRIPT
                     </span>
                   </li>
+                  {/* TAILWINDCSS  */}
+                  <li className=" font-medium cursor-default">
+                    <span className="bg-light-grey/30 py-2 px-4">
+                      TAILWINDCSS
+                    </span>
+                  </li>
                   {/* NEXT JS */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="800"
-                    className="font-medium cursor-default"
-                  >
-                    {/* <i className="ri-reactjs-line hidden text-3xl mb-2"></i> */}
+                  <li className="font-medium">
                     <span className="bg-light-grey/30 py-2 px-4">NEXT JS</span>
                   </li>
                   {/* VUE JS */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="800"
-                    className=" font-medium cursor-default"
-                  >
-                    {/* <i className="ri-reactjs-line hidden text-3xl mb-2"></i> */}
+                  <li className=" font-medium cursor-default">
                     <span className="bg-light-grey/30 py-2 px-4">VUE JS</span>
                   </li>
                   {/* HTML  */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="700"
-                    className="font-medium cursor-default"
-                  >
-                    {/* <i className="ri-html5-fill hidden text-3xl mb-2"></i> */}
+                  <li className="font-medium cursor-default">
                     <span className="bg-light-grey/30 py-2 px-4">HTML</span>
                   </li>
                   {/* CSS  */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="700"
-                    className="font-medium cursor-default"
-                  >
-                    {/* <i className="ri-css3-fill hidden text-3xl mb-2"></i> */}
+                  <li className="font-medium cursor-default">
                     <span className="bg-light-grey/30 py-2 px-4">CSS</span>
                   </li>
+
                   {/* SASS  */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="700"
-                    className=" font-medium cursor-default"
-                  >
-                    {/* <img
-                      src={sassIcon}
-                      alt=""
-                      className=" hidden mb-2 w-[2.25rem]"
-                    /> */}
+                  <li className=" font-medium cursor-default">
                     <span className="bg-light-grey/30 py-2 px-4">
                       SCSS/SASS
                     </span>
                   </li>
+
                   {/* BOOTSTRAP  */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="700"
-                    className="font-medium cursor-default"
-                  >
-                    {/* <img
-                      src={bootstrapIcon}
-                      alt=""
-                      className="hidden mb-2 w-[2.25rem]"
-                    /> */}
+                  <li className="font-medium cursor-default">
+                    {" "}
                     <span className="bg-light-grey/30 py-2 px-4">
                       BOOTSTRAP
                     </span>
                   </li>
-                  
+
                   {/* FIGMA  */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="700"
-                    className=" font-medium cursor-default"
-                  >
+                  <li className=" font-medium cursor-default">
                     {/* <i className="ri-github-fill hidden text-3xl mb-2"></i> */}
                     <span className="bg-light-grey/30 py-2 px-4">FIGMA</span>
-                  </li>
-                  {/* TAILWINDCSS  */}
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="3000"
-                    data-aos-delay="800"
-                    className=" font-medium cursor-default"
-                  >
-                    {/* <img
-                      src={tailwindcssIcon}
-                      alt=""
-                      className="hidden mb-2 w-[2.25rem] "
-                    /> */}
-                    <span className="bg-light-grey/30 py-2 px-4">
-                      TAILWINDCSS
-                    </span>
                   </li>
                 </ul>
               </div>
@@ -313,34 +224,19 @@ export default function Home() {
                 data-aos-duration="3000"
                 className="list-disc pl-9 pb-2"
               >
-                <li
-                  data-aos="fade-up"
-                  data-aos-duration="3000"
-                  data-aos-delay="300"
-                  className="cursor-default pb-2"
-                >
+                <li className="cursor-default pb-2">
                   <h6 className="font-medium">
                     AltSchool School of Engineering
                   </h6>
                   <p className="text-base">Software Engineering</p>
                   <p className="text-lg font-medium">2022 - 2023</p>
                 </li>
-                <li
-                  data-aos="fade-up"
-                  data-aos-duration="3000"
-                  data-aos-delay="400"
-                  className="pb-2 cursor-default"
-                >
+                <li className="pb-2 cursor-default">
                   <h6 className="font-medium">Jobberman</h6>
                   <p className="text-base">Soft Skills Training</p>
                   <p className="text-lg font-medium">2021</p>
                 </li>
-                <li
-                  data-aos="fade-up"
-                  data-aos-duration="3000"
-                  data-aos-delay="500"
-                  className="pb-2 cursor-default"
-                >
+                <li className="pb-2 cursor-default">
                   <h6 className="font-medium">Living Word Academy Secondary</h6>
                   <p className="text-base">WASSCE</p>
                   <p className="text-lg font-medium">2020</p>
@@ -351,7 +247,6 @@ export default function Home() {
             <div
               data-aos="fade-up"
               data-aos-duration="3000"
-              data-aos-delay="200"
               id="projects"
               className="pb-8"
             >
