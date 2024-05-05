@@ -80,16 +80,15 @@ export const AllWorks = [
   //   imagePosition: "object-center",
   // },
   // Products page
-  {
-    image: altschoolProductsImg,
-    stack:
-      "Vue Js, TailwindCSS, React Paginate, Axios, Pinia, Vuex, Vue Router, Firebase",
-    title: "Products Page",
-    subTitle: "A products page, a project by AltSchool Africa",
-    githubURL: "https://github.com/Jay035/products-page",
-    demoURL: "https://altschool-products-page.web.app/",
-    imagePosition: "object-center",
-  },
+//  {
+//    image: altschoolProductsImg
+  // stack:
+//      "Vue Js, TailwindCSS, React Paginate, Axios, Pinia, Vuex, Vue Router, Firebase",
+//    title: "Products Page",
+//    subTitle: "A products page, a project by AltSchool Africa",
+//    githubURL: "https://github.com/Jay035/products-page",    demoURL: "https://altschool-products-page.web.app/",
+ //   imagePosition: "object-center",
+//  },
   // space tourism
   {
     image: spaceTourismImg,
