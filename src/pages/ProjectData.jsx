@@ -68,17 +68,17 @@ export const AllWorks = [
     imagePosition: "object-center",
   },
   // Github portfolio project
-  {
-    image: githubUserImg,
-    stack:
-      "React Js, TailwindCSS, Github API, React Paginate, AOS, React Error Boundary",
-    title: "Github portfolio",
-    subTitle:
-      "A portfolio website showing all github projects using Github API.",
-    githubURL: "https://github.com/Jay035/Github-user-api-project",
-    demoURL: "https://github-user-api-project.vercel.app/",
-    imagePosition: "object-center",
-  },
+  // {
+  //   image: githubUserImg,
+  //   stack:
+  //     "React Js, TailwindCSS, Github API, React Paginate, AOS, React Error Boundary",
+  //   title: "Github portfolio",
+  //   subTitle:
+  //     "A portfolio website showing all github projects using Github API.",
+  //   githubURL: "https://github.com/Jay035/Github-user-api-project",
+  //   demoURL: "https://github-user-api-project.vercel.app/",
+  //   imagePosition: "object-center",
+  // },
   // Products page
   {
     image: altschoolProductsImg,
@@ -121,15 +121,15 @@ export const AllWorks = [
     imagePosition: "object-[40%]",
   },
   // calculator
-  {
-    image: calculatorImg,
-    title: "Calculator app",
-    subTitle:
-      "Front-end engineering Second semester assignment at AltSchool Africa",
-    githubURL: "https://github.com/Jay035/AltSchool-calculator-web-app",
-    demoURL: "https://altschool-calculator-web-app.vercel.app/",
-    imagePosition: "object-center",
-  },
+  // {
+  //   image: calculatorImg,
+  //   title: "Calculator app",
+  //   subTitle:
+  //     "Front-end engineering Second semester assignment at AltSchool Africa",
+  //   githubURL: "https://github.com/Jay035/AltSchool-calculator-web-app",
+  //   demoURL: "https://altschool-calculator-web-app.vercel.app/",
+  //   imagePosition: "object-center",
+  // },
   // travel journal
   // {
   //   image: travelJournalImg,
