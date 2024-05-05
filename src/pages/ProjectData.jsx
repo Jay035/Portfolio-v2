@@ -32,7 +32,7 @@ export const AllWorks = [
     title: "SoliMax",
     subTitle: "A web3 global hub building a community of DeFi enthusiasts",
     githubURL: "https://github.com/Jay035/Solimax",
-    demoURL: "https://solimax.io",
+    demoURL: "https://www.solimax.io",
     imagePosition: "object-center",
   },
   // Unique ideas
