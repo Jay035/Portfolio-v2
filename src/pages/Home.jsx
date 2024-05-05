@@ -236,11 +236,12 @@ export default function Home() {
                   <p className="text-base">Soft Skills Training</p>
                   <p className="text-lg font-medium">2021</p>
                 </li>
-                <li className="pb-2 cursor-default">
+             {/*   <li className="pb-2 cursor-default">
                   <h6 className="font-medium">Living Word Academy Secondary</h6>
                   <p className="text-base">WASSCE</p>
                   <p className="text-lg font-medium">2020</p>
                 </li>
+                */}
               </ul>
             </div>
 
