@@ -28,7 +28,7 @@ export const AllWorks = [
   // solimax
   {
     image: solimaxImg,
-    stack: "Next Js, TypeScript, CSS Module",
+    stack: "Next Js, TypeScript, TailwindCSS",
     title: "SoliMax",
     subTitle: "A web3 global hub building a community of DeFi enthusiasts",
     githubURL: "https://github.com/Jay035/Solimax",
@@ -38,11 +38,11 @@ export const AllWorks = [
   // Unique ideas
   {
     image: uniqueIdeasImg,
-    stack: "React Js, JavaScript, TailwindCSS, GSAP",
+    stack: "Webflow",
     title: "UniqueIdeas",
     subTitle: "A portfolio website for Ify, a product designer",
     githubURL: "https://github.com/Jay035/Unique-ideas",
-    demoURL: "https://www.uniqueideas.me/",
+    demoURL: "https://uniqueideas.webflow.io/",
     imagePosition: "object-center",
   },
   // magno
