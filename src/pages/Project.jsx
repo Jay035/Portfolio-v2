@@ -111,7 +111,7 @@ export default function Project() {
           <section
             // data-aos="fade-up"
             // data-aos-duration="3000"
-            className="w-full grid grid-cols-1 place-content-center sm:grid-cols-2 xl:grid-cols-3 gap-10 items-start mt-10 mb-20"
+            className="w-full grid grid-cols-1 place-content-center sm:grid-cols-2 gap-10 items-start mt-10 mb-20"
           >
             {data?.map((item, index) => {
             return <Card key={index} id={item.id} item={item} />;
