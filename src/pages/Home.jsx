@@ -54,13 +54,12 @@ export default function Home() {
           <div className="sm:w-4/5 sm:flex justify-center items-center gap-12 sm:gap-4 mt-12 sm:justify-start">
             {/* contact */}
             <button className="block cursor-auto bg-button-black p-2 w-1/2 sm:w-2/5 mx-auto sm:mx-0 my-2 text-white font-semibold hover:bg-[#505052] sm:py-4">
-              <Link
-                to="/contact"
+              <a href="#contact"
                 className="py-4 px-4 text-lg sm:text-xl xl:text-xl"
-                href="/src/pages/Contact.js"
+            
               >
                 Hire Me
-              </Link>
+              </a>
             </button>
             {/* GET CV  */}
             <button className="block cursor-auto bg-button-black p-2 w-1/2 sm:w-2/5 mx-auto sm:mx-0 my-2 text-white font-semibold hover:bg-[#505052] sm:py-4">
