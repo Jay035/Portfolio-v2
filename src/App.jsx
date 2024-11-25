@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import {
   BrowserRouter as Router,
   Route,
@@ -130,11 +131,10 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
-
-{/* <div id="contact"></div> */}
           <Footer />
         </div>
       </Suspense>
+      <Analytics />
     </Router>
     // )
   );
