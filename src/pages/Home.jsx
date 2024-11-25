@@ -65,7 +65,7 @@ export default function Home() {
             <button className="block cursor-auto bg-button-black p-2 w-1/2 sm:w-2/5 mx-auto sm:mx-0 my-2 text-white font-semibold hover:bg-[#505052] sm:py-4">
               <a
                 className="py-4 px-4 text-lg sm:text-xl xl:text-xl"
-                href="https://drive.google.com/file/d/1ng_v6qMwrd9mAHUohhbwwcWMN1vP06qk/view?usp=sharing"
+                href="https://drive.google.com/file/d/12QfYE4wy0a59cAyKbr4riOt95Tekfr5B/view?usp=drive_link"
               >
                 Get CV
               </a>
