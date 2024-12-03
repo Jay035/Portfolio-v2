@@ -32,15 +32,17 @@ export const Card = ({ item }: any) => {
 
         <div className="flex gap-6 mt-4">
           {/* <!-- link to github repo --> */}
+          {item.githubURL && (
           <a href={item.githubURL} target="_blank">
             <button className="font-semibold rounded-lg w-24 py-3 bg-light-grey/20 hover:bg-light-grey/50">
               Github
             </button>
           </a>
+    )}
           {/* <!-- link to live site  --> */}
           <a href={item.demoURL} target="_blank">
             <button className="font-semibold rounded-lg w-24 py-3 bg-light-grey/20 hover:bg-light-grey/50">
-              Demo
+              View
             </button>
           </a>
         </div>
