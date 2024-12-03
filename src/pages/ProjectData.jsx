@@ -41,7 +41,7 @@ export const AllWorks = [
     stack: "Webflow",
     title: "UniqueIdeas",
     subTitle: "A portfolio website for Ify, a product designer",
-    githubURL: "https://github.com/Jay035/Unique-ideas",
+    // githubURL: "https://github.com/Jay035/Unique-ideas",
     demoURL: "https://uniqueideas.webflow.io/",
     imagePosition: "object-center",
   },
@@ -89,16 +89,16 @@ export const AllWorks = [
 //    githubURL: "https://github.com/Jay035/products-page",    demoURL: "https://altschool-products-page.web.app/",
  //   imagePosition: "object-center",
 //  },
-  // space tourism
-  {
-    image: spaceTourismImg,
-    stack: "React Js, JavaScript, CSS",
-    title: "Space Tourism website",
-    subTitle: "A multi-page space tourism website ",
-    githubURL: "https://github.com/Jay035/Space-tourism-Multi-page-website",
-    demoURL: "https://space-tourism-reactjs-website.netlify.app/",
-    imagePosition: "object-center",
-  },
+  // // space tourism
+  // {
+  //   image: spaceTourismImg,
+  //   stack: "React Js, JavaScript, CSS",
+  //   title: "Space Tourism website",
+  //   subTitle: "A multi-page space tourism website ",
+  //   githubURL: "https://github.com/Jay035/Space-tourism-Multi-page-website",
+  //   demoURL: "https://space-tourism-reactjs-website.netlify.app/",
+  //   imagePosition: "object-center",
+  // },
   // todo app
   {
     image: todoApp,
