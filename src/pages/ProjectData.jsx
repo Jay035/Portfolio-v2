@@ -46,27 +46,27 @@ export const AllWorks = [
     imagePosition: "object-center",
   },
   // magno
-  {
-    image: magnoImg,
-    stack: "React Js, JavaScript, TailwindSS, GSAP",
-    title: "Magno",
-    subTitle:
-      "A premium entertainment service founded to bring people together and build connections through shared interests",
-    githubURL: "https://github.com/Jay035/Magno",
-    demoURL: "https://www.themagno.co/",
-    imagePosition: "object-center",
-  },
+  // {
+  //   image: magnoImg,
+  //   stack: "React Js, JavaScript, TailwindSS, GSAP",
+  //   title: "Magno",
+  //   subTitle:
+  //     "A premium entertainment service founded to bring people together and build connections through shared interests",
+  //   githubURL: "https://github.com/Jay035/Magno",
+  //   demoURL: "https://www.themagno.co/",
+  //   imagePosition: "object-center",
+  // },
   // fanstribe
-  {
-    image: fanstribeImg,
-    stack: "React Js, JavaScript, TailwindSS, GSAP",
-    title: "Fanstribe",
-    subTitle:
-      "A platform to enjoy their favorite sport, support their favorite teams and athletes while connecting with millions of fans just like them across the globe.",
-    githubURL: "https://github.com/Jay035/fanstribe",
-    demoURL: "https://fanstribe.co",
-    imagePosition: "object-center",
-  },
+  // {
+  //   image: fanstribeImg,
+  //   stack: "React Js, JavaScript, TailwindSS, GSAP",
+  //   title: "Fanstribe",
+  //   subTitle:
+  //     "A platform to enjoy their favorite sport, support their favorite teams and athletes while connecting with millions of fans just like them across the globe.",
+  //   githubURL: "https://github.com/Jay035/fanstribe",
+  //   demoURL: "https://fanstribe.co",
+  //   imagePosition: "object-center",
+  // },
   // Github portfolio project
   // {
   //   image: githubUserImg,
